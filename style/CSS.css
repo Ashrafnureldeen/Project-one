@@ -1,0 +1,590 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 3000px;  
+}
+.line{
+    height: 4px;
+    width: 120px;
+    background-color: blueviolet;
+    text-align: center;
+    margin: auto
+    
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(145, 41, 243, 0.705);
+    border: solid 2px slategrey;   
+}
+.header-img{
+    width: 50px;
+    height: 47px;
+    margin-left: 150px;
+    float: left;
+}
+.list{
+    margin-top: 20px;
+    float:right;
+    margin-right: 50px;
+}
+.item{
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    list-style: none;
+    display: inline-block;
+    color: white;
+    margin-right: 40px;  
+    text-decoration: none;
+    cursor: pointer;
+}
+.item:hover{
+    color: blue;
+    font-size: 20px;
+}
+/* ----------------------------------------------------------------- */
+.home{
+    height: 100vh;
+    position: relative;
+    background-image: url(../image/The-Future-of-Sports-Broadcasting-is-OTT-Blog-Banner-Inner-Image-1-e1617293556130.jpg);
+}
+.home-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    opacity: 0.8;
+}
+.home-center{
+  margin-bottom: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%)
+}
+.home-h1{
+    color: white;
+    font-size: 65;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+}
+.home-p{
+    color: white;
+    margin-top:10px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px
+}
+.home-btn1{
+    margin-top: 20px;
+    width: 150;
+    height: 50;
+    background-color: blueviolet;
+    display: block;
+    font: bold 15px white;
+    font-family: 'Itim', cursive;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid slategrey ;
+    cursor: pointer;
+}
+.home-btn2{
+    margin-top: 30px;
+    width: 100;
+    height: 50;
+    background-color: blueviolet;
+    font: bold 15px white;
+    font-family: 'Itim', cursive;
+    color: white;
+    border-radius: 25px ;
+    border: 2px solid slategrey ;
+    cursor: pointer;
+}
+.home-btn1:hover{
+    background-color: rgb(65, 6, 121)
+}
+.home-btn2:hover{
+    background-color: rgb(65, 6, 121)
+}
+.text-search{
+    width: 300px;
+    height: 50;
+    margin-left: 50px;
+    float: left;
+    border-color: rgb(0, 81, 255)
+}
+.search{
+    width: 70px;
+    height: 50;
+    float: left;
+    background-color:  rgb(0, 89, 255);  
+}
+.search:hover{
+    background-color:blue
+}
+/* --------------------------------------------------------------Welcome */
+.welcome{
+   position: relative;
+    width: 100%;
+    height: 500px;
+}
+.iptv-h2{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 40px
+
+}
+.overr{
+    position: absolute;
+    margin-top: 80;
+}
+.welcome-div{
+    width: 300px;
+    height: 300px;
+    border: solid slategrey 2px;
+    float: left;
+    margin-left: 130px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+}
+.img-w-div{
+    width: 50px;
+    height: 50px;
+    padding: 20px
+}
+.welcome-p{
+    margin-top: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+.welcome-div::after{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 10%;
+    top:0;
+    left:0;
+    background-color:slategrey;
+    opacity: 0;
+}
+.welcome-div:hover::after{
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+    opacity: 0.5;   
+}
+.welcome-title{
+    font-family: 'Indie Flower', cursive;
+}
+/* --------------------------------------------------------------------------- */
+.freat{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color:  rgb(236, 234, 234);   
+}
+.q-h2{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    font-weight: bold; 
+}
+.freat-overlay{
+    position: absolute;
+    margin-top: 100px
+}
+.cc{
+    width: 50px;
+    height: 50px;
+    margin: 20px 10px;
+}
+.bb{
+    width: 190px;
+    height: 200px;
+    margin: 20px 45px;
+}
+.freat-div{
+    width: 250;
+    height: 300;
+    border: solid slategrey 2px;
+    float: left;
+    margin-left: 70px;
+    text-align: center;
+    position: relative;
+}
+.img-freat{
+    width: 50px;
+    height: 50px;
+    margin-right: 150;
+    margin-top:20 
+}
+.freat-h2{
+    margin: 10 auto;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold
+}
+.freat-p{
+    margin: 30px auto;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px
+}
+.freat-div::after{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: slategrey;
+    opacity: 0;
+    position: absolute;
+}
+.freat-div:hover::after{
+    width: 100%;
+    height: 50%;
+    opacity: 0.5;
+    transition: 2s;
+}
+.freat-div::before{
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: slategrey;
+    opacity: 0;
+    position: absolute
+}
+.freat-div:hover::before{
+    width: 100%;
+    height: 50%;
+    transition: 2s;
+    opacity: 0.5;
+}
+/* ------------------------------------------------------------------ */
+.elementary{
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+.elementary-text{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 20px 
+}
+.div-p{
+    width: 500px;
+    height: 150px;
+}
+.elementary-h2{
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px
+}
+.elementary-p{
+   font-size: 20px;
+   margin-left: 35px;
+    word-spacing: 5px;
+    line-height: 25px;
+    font-family: 'Indie Flower', cursive;
+}
+.t-li{
+    font-size: 20px;
+    word-spacing: 3px;
+    line-height: 25px;
+    margin-left: 40px;
+    font-family: 'Indie Flower', cursive;
+}
+.h3-t{
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px
+}
+.elementary-img{
+    width: 500;
+    height: 400;
+    margin-top: 50px;
+    margin-left: 700px;
+}
+/* -------------------------------------------------------------------------------- */
+.number{
+    width: 100%;
+    height: 300px;
+    background-image: url(../image/iptv-background.jpg);
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.number-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.4;
+} 
+.number-item{
+    opacity: 0.9;
+    padding: 120px;
+    margin-left: 100
+}
+.itemM{
+    text-align: center;
+    float: left;
+    margin-left: 50;
+    margin-right: 40px;  
+    text-decoration: none;
+}
+.item-title{
+    font-family: 'Indie Flower', cursive;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+.item-p{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    color: white;
+}
+.fab{
+    font-size: 70;
+    color: rgb(15, 66, 161);
+}
+.fas{
+    font-size: 70;
+    color: rgb(15, 66, 161);
+}
+/* ------------------------------------------------------------------------------------- */
+.contender{
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    margin-top: 100px;
+}
+.w-h2-div{
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+}
+.W-h2{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    font-weight: bold;
+}
+.over{
+    width: 20%;
+    height: 400px;
+    float: left;
+    margin: 0px 30px;
+    border: solid slategrey 2px;
+    text-align: center;
+    position: relative;
+    position: relative;
+}
+.scroll1{
+    width: 80;
+    height: 80;
+    border: solid ;
+    border: solid blueviolet 1px;
+    border-radius: 50%;
+    margin-top: -40px;
+    background-color: blueviolet;
+    float: left;
+    margin-left:50px;  
+}
+.scroll2{
+    width: 80;
+    height: 80;
+    border: solid ;
+    border: solid blueviolet 1px;
+    border-radius: 50%;
+    margin-top: -40px;
+    background-color: blueviolet;
+    float: left;
+}
+.backgrund{
+    width:55px;
+    height:55px;
+    margin-top: 15px;
+}
+.over::after{
+    content: "";
+    width: 100%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    background-color: slategrey;
+    opacity: 0.5;
+    position: absolute;
+}
+.over:hover::after{
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+    opacity: 0.4;
+}
+.titles-h2{
+    margin-top: 60px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+}
+.h3-scroll{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid rgb(226, 43, 67) 2px;
+    margin: auto
+}
+.titles-h3{
+    font-family: 'Indie Flower', cursive;
+    margin-top: 10px;
+    color: blueviolet;
+}
+.icon{
+    height: 100%;
+    width: 20%;
+    float: left;    
+}
+.icon2{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    font-family: 'Indie Flower', cursive;
+}
+.zx{
+    margin-left: 245px;
+    margin-top: 18px;
+    display: block;
+    line-height: 10; 
+    float: left; 
+    font-size: 20px;
+    color: green;
+}
+.tt{
+    float: left;
+    font-size: 19px;
+    margin-left: 3px;
+    margin-top: 10px
+}
+.btn-titles{
+    margin-top: 225px;
+    margin-right: 50px;
+    width: 100;
+    height: 35;
+    background-color: blueviolet;
+    font: bold 15px white;
+    font-family: 'Itim', cursive;
+    color: white;
+    border-radius: 25px ;
+    border: 2px solid slategrey ;
+}
+.btn-titles:hover{
+    cursor: pointer;
+}
+/* ---------------------------------------------------------------------------------- */
+.cont{
+    width: 100%;
+    height: 500px;
+    margin-top: 200px;
+}
+.cont-div{
+    width: 300px;
+    height: 300px;
+    border: solid slategrey 2px;
+    float: left;
+    margin-left: 110px;
+    text-align: center;
+    background-size: cover;
+    position: relative;
+}
+.i{
+    width: 260px;
+    height: 200px; 
+    background-image: url(../image/live.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+.l{
+    width: 260px;
+    height: 200px;
+    background-image: url(../image/movies.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+.j{
+    width: 260px;
+    height: 200px;
+    background-image: url(../image/series.jpeg.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+.icons{
+    width: 50px;
+    height: 150px;
+    background-color: rgb(0, 89, 255);
+    margin-left: 230px;
+    margin-top: -150px;
+    visibility: hidden;
+    opacity: 0;     
+}
+.fa-search{
+    margin: 60px auto;
+    font-size: 30px;
+    color: white
+}
+.cont-div:hover .icons{
+    visibility: visible;
+    opacity: 0.8;   
+}
+.cont-div::after{
+    content: "";
+    width: 20%;
+    height: 0%;
+    top: 0;
+    right: 0;
+    background-color: slategrey;
+    opacity: 0;
+    position: absolute;
+}
+.cont-div:hover::after{
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+    opacity: 0.6;
+}
+.cont-div-h2{
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    margin: 40 auto;
+}
+/* ---------------------------------------------------------------------------------- */
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: #4c4d52;
+    text-align: center;
+}
+.footer-links{
+    list-style: none;
+}
+.footer-links li{
+    display: inline-block;
+}
+.footer-links li a{
+    margin: 0PX 10px;   
+}
+.F{
+    display: inline-block;
+    font-size: 50px;
+    margin-top: 150px;
+    color: #6195ff;   
+}
+.footer p{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #999;
+}
